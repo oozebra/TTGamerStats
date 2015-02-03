@@ -1,0 +1,161 @@
+/* Tags */
+
+body{
+
+
+
+
+}
+
+
+
+
+input{
+
+text-align:center;
+width:90px;
+height:25px;
+
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+
+a:visited {
+    color: #FFFFFF;
+}
+
+
+/* IDs */
+
+#container {
+
+width:800px;
+height:100%;
+
+}
+
+/* Classes */
+
+
+/* .backpic{
+background-image: url("../img/ryu.jpg");
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+	width;100%;
+opacity: 0.5;
+z-index: -1;
+
+} */
+
+.navibar{
+
+width: 795;
+height:50px;
+color:white;
+font-size:large;
+background-color:black;
+border:2px solid black;
+  margin-left: 200px;
+    margin-top: 50px;
+
+border-radius: 2px;
+
+top:0;
+bottom: 0;
+left: 0;
+right: 0;	
+vertical-align:center;
+font-family:Georgia, serif;
+
+} 
+
+.go{
+
+float:left; 
+width:25px; 
+height:25px;
+margin-top: 15px;
+margin-left: 20px;
+
+
+}
+
+.userIcon{
+float:left; 
+width:50px; 
+height:50px;
+
+margin-left: 20px;
+
+
+}
+
+
+.opt{
+
+width:90px;
+height:50px;
+float:left;
+text-align:center;
+padding-top:10px;
+
+}
+
+
+
+.bar{
+width: 150;
+height:600px;
+position: absolute;
+
+}
+
+
+.side{
+background-color:black;
+color:white;
+width: 150;
+height:100px;
+font-size:x-large;
+text-align:center;
+line-height: 4;
+display:inline-block;
+}
+
+
+
+.login{
+
+width:250px;
+height:50px;
+float:right;
+text-align:center;
+line-height: 2.29;
+
+}
+
+.loginMenu{
+float:right;
+font-size:small;
+line-height:1.2;
+margin-right:10px;
+
+}
+
+.button{
+
+width:95px;
+height:50px;
+border:2px solid black;
+border-radius: 5px;
+color:white;
+font-size:medium;
+
+}
+
+.button.log{background-color:green;}
+
+.button.reg{background-color:red;}

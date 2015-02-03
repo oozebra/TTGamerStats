@@ -1,0 +1,98 @@
+<html style="text-align:-webkit-center;">
+<head>
+<link rel="stylesheet" type="text/css" href="css/navi.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src = "js/loader.js"></script>
+<script src = "js/cookie.js"></script>
+<script src = "js/login.js"></script>
+<script src = "js/graph.js"></script>
+      <script type="text/javascript"
+          src="https://www.google.com/jsapi?autoload={
+            'modules':[{
+              'name':'visualization',
+              'version':'1',
+              'packages':['corechart']
+            }]
+          }">
+		    
+		  </script>
+		  
+		      <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':
+			  [{'name':'visualization','version':'1','packages':['corechart']}]}"
+			  ></script>
+
+    <script type="text/javascript">
+      google.setOnLoadCallback(drawChart);
+    
+    </script>
+	
+	
+</head>
+
+
+<body style=" background-image: url('img/guile2.jpg');">
+<!-- Start of Navibar -->
+<div class="navibar">   
+	
+   
+ <span class="opt">Home</span>
+ <span class="opt">Stats </span>
+ <span class="opt"><a href="user.html">Players</a></span>
+ <span class="opt">Events</span>
+ <span class="opt">About</span>
+ <span id="reg_log" class="login">
+ <img src="img/go.gif" class="go" >
+ <span class="loginMenu" >
+ Username: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Password:<br />
+ <input type="text" maxlength="12" /> &nbsp; <input type="text" maxlength="12"/>
+ </span>
+ </span> 
+
+ </div>
+
+ <!-- End of Navibar -->
+ 
+ <div id="countainer"> <!--  start of container  -->
+
+<div class="bar" style="background-color:black;"> <!-- start of sidebar  -->
+
+<span > <!--  start of pic_container  -->
+<span id="Org_img" style="float:left;">
+
+<img src="img/user.png" style="width:100px;  height:100px;" />
+
+
+</span>
+<div style="width:100px;  color:white; height:150px; float:right; font-size:large;">
+<span id="Org_Name" style="height:75px; " > Gamer Tourneys </span>
+<span id="Org_Name" style="height:75px; "> Sando</span>
+</div>
+</span><!--  end of pic_container  -->
+
+<div class="side">Profile</div>
+<div class="side">Tournaments</div>
+<div class="side">Participants</div >
+<div class="side">Statistics</div>
+
+</div> <!--  end of sidebar  -->
+<div >
+<div id="curve_chart" style=" float:right; width: 450px; height: 250px"></div>
+
+  
+<div>  <!--  start of table  -->
+
+
+
+</div>
+
+
+
+</div>
+</div> <!--  end of container  -->
+ 
+ 
+ 
+ 
+ 
+  </body>
+  </html>
