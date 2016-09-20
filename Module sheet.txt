@@ -1,0 +1,39 @@
+//Form Inserts/Updates Module
+
+
+
+
+
+//Search Queries Module
+
+function findGRN($id){ // returns array contain all information inserted from form or returns false }
+
+* do function for all forms
+
+
+
+
+//Graph Queries Module
+
+function...(the one from saturday) {reutrns an array of arrays containing quantites and information on all mocala activities within a month period.}
+
+
+
+
+
+//Alert Queries Module
+
+
+
+
+
+
+
+//Report Generator Module
+
+
+
+//DB
+
+
+
