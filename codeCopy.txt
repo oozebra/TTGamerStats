@@ -1,3 +1,23 @@
 ****************************************************************
 Copy code bellow
 ****************************************************************
+$dbh = new PDO("odbc:DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=$dbName; Uid=; Pwd=;");
+
+$data = array();
+if($dbh){
+	echo 'connected';
+      $stmt = $dbh->prepare("SELECT * FROM tbl where transdate = ?");
+    
+    if ($stmt->execute(array("20160101"))) {
+      while ($row = $stmt->fetch()) {
+       
+          $ments = $row["comments"];
+          list($k, $v) = explode("#", $ments);        
+          $comments[ $k ] = $v;          
+          
+          $row["comments"] = $comments;
+          array_push($data,$row);
+         
+      }        
+    }    
+}
