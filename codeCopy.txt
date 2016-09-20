@@ -1,3 +1,21 @@
 ****************************************************************
 Copy code bellow
 ****************************************************************
+
+//NB. I created a db to test.
+//still have to put the seprated values for the numbers in to the array you requested.
+//still to do is the close off work in
+function getFormData($date, $other){
+    $stmt = $dbh->prepare("SELECT * FROM tbl where transdate = ?");
+    
+    if ($stmt->execute(array($date))) {
+      while ($row = $stmt->fetch()) {
+       // print_r($row);
+          $ments = $row[comments];
+          $commentsVari = explode("#", $ments);
+          
+          
+      }
+    }
+    
+}
